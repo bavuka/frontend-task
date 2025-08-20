@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="">
+        <title>Form</title>
+        
+        <link rel="stylesheet" href="./style.css"> <!-- (../) we could use to select file ftom outside the current folder 0f html*/ -->
+
+    </head>
+    <body>
+        <div class="dem">
+            <h1 class="h">SURVEY FORM</h1>
+            <div class="main">
+                <p class="p1">Let us know how we can improve</p>
+                <div>
+                <form action="#" method="post">
+                    <table >
+                        <tr>
+                            <td class="label">*Name:</td>
+                            <td><input type="text" class="in1" placeholder="Enter your name" required></td>
+                        </tr>
+                        <tr>
+                            <td class="label">*Email:</td>
+                            <td><input type="email" class="in1" placeholder="Enter your Email" required></td>
+                        </tr>
+                        <tr>
+                            <td class="label">*Age:</td>
+                            <td ><input type="number"  class="in1" placeholder="Age" required></td>
+                        </tr>
+                        <tr>
+                            <td class="label"></td>
+                            <td colspan="2"><input type="file"></td>
+                        </tr>
+                        <tr>
+                            <td class="label">Which option best describes your current role?</td>
+                            <td><select name="" id="">
+                                <option value="">Student</option>
+                                <option value="">Working</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td class="label">*How likely is that you would recommend this program to a friend?</td>
+                            <td>
+                                <input type="radio" id="definitely" name="recommend" required >
+                                <label for="definitely">Definitely</label><br>
+
+                                <input type="radio" id="maybe"  name="recommend" >
+                                <label for="maybe">Maybe</label><br>
+
+                                <input type="radio" id="notsure"  name="recommend"  >
+                                <label for="notsure">Not sure</label>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class="label">What do you like most here:</td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">select an option</option>
+                                    <option value="">classes</option>
+                                    <option value="">doubt clearence</option>
+
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">Things that should be improved in the future<br>(Check all that apply):</td>
+                            <td>
+                                <input type="checkbox" id="front"><label for="front">Front-end Projects</label><br>
+                                <input type="checkbox" id="back"><label for="back">Back-end Projects</label><br>
+                                <input type="checkbox" id="data"><label for="data">Data Visualization</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                Any Comments or Suggestions?
+                            </td>
+                            <td ><textarea  class="in" placeholder="Enter your comment here..."></textarea></td>
+                        </tr>
+
+                    </table>
+                    
+                   
+                   
+                    <button >Submit</button>
+                </form>
+                
+                </div>
+
+            </div>
+            
+        </div>
+
+    </body>
+ </html>   

@@ -1,0 +1,81 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(./image/pexels-kovyrina-937980.jpg);
+     background-size: cover; 
+   background-repeat: no-repeat;
+   
+}
+.dem{
+   
+    
+  width: 779px;      
+  height: 760px;     
+  
+  padding: 20px;     
+ 
+  
+  
+   display: flex;
+   
+   align-items: center;
+   flex-direction: column;
+    
+    
+}
+.h{
+    color: aliceblue;
+   
+    margin-top: 1px;
+    text-align: center;
+}
+.main{
+    width:89% ;
+    height: 89%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+   
+
+}
+.p1{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+  padding-top:20px;
+}
+
+.label{
+    text-align: right;
+    vertical-align: top;
+    
+   
+    width:300px
+    
+}
+table{
+    border-spacing: 15px;
+}
+button{
+    color: #fff;
+    background-color: black;
+    margin-left: 272px;
+    padding: 13px 30px;
+    margin-top: 10px;
+}
+.in {
+  width: 300px;
+  height: 37px;
+  padding-bottom: 35px;
+
+  font-size: 16px;
+}
+.in1{
+    width: 300px;
+    height: 25px;
+}
+
+
