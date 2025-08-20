@@ -5,6 +5,7 @@ body{
     background-image: url(./image/pexels-kovyrina-937980.jpg);
      background-size: cover; 
    background-repeat: no-repeat;
+   background-size: 100% 101%;
    
 }
 .dem{
@@ -12,26 +13,18 @@ body{
     
   width: 779px;      
   height: 760px;     
-  
   padding: 20px;     
- 
-  
-  
-   display: flex;
-   
+   display: flex; 
    align-items: center;
    flex-direction: column;
-    
-    
 }
 .h{
     color: aliceblue;
-   
     margin-top: 1px;
     text-align: center;
 }
 .main{
-    width:89% ;
+    width:111% ;
     height: 89%;
     background-color: #fff;
     display: flex;
@@ -41,7 +34,7 @@ body{
 
 }
 .p1{
-    text-decoration: none;
+   
     font-size: 18px;
     font-weight: 100;
     text-align: center;
@@ -53,7 +46,7 @@ body{
     vertical-align: top;
     
    
-    width:300px
+    width:305px
     
 }
 table{
@@ -62,9 +55,14 @@ table{
 button{
     color: #fff;
     background-color: black;
-    margin-left: 272px;
+    margin-left: 310px;
     padding: 13px 30px;
     margin-top: 10px;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: rgb(71, 30, 218);
 }
 .in {
   width: 300px;
@@ -76,6 +74,9 @@ button{
 .in1{
     width: 300px;
     height: 25px;
+}
+form{
+    margin-left: 40px;
 }
 
 
